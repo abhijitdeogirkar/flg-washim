@@ -1,5 +1,5 @@
 import streamlit as st
-from medical_context import GSheetsConnection # ही लायब्ररी कनेक्शनसाठी लागेल
+from streamlit_gsheets import GSheetsConnection # ही लायब्ररी कनेक्शनसाठी लागेल
 
 # १. कनेक्शन प्रस्थापित करणे
 conn = st.connection("gsheets", type=GSheetsConnection)
